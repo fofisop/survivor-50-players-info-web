@@ -1,18 +1,70 @@
 <html>
     <head>
+        <center>
         <title>50</title>
-        <h1> Welcome to the Survivor 50 players info website! </h1>
-        <h2>Warning! There are some spoilers in here, bit I'll try not to put in any spoilers on the current season. The only thing you will see is in which tribe each person starts in! Take a look around the website, and enjoy! </h2>
-        <h3> Note: This is not sponsored by Survivor in any way.</h3>
-        <style>
+       <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        .btn-vatu { background-color: #ff00ff; } 
+    .btn-cila { background-color: #ff8c00; } 
+    .btn-kalo { background-color: #00ced1; } 
+    
+    button{
+        width: 100px;
+        height: 70px;
+    }
+
+    button:hover {
+            filter: brightness(1.2);
+            transform: scale(1.05);
+        }
 
 
-        </style>
+        body {
+    background-image: url('arc.jpg');
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center;
+    color: #FAF9F6;               
+}
+
+       </style>
+
+
+        
     </head>
 
 
     <body>
-        <i am testing></i>
+         <h1> Welcome to the Survivor 50 players info website! </h1>
+        <h2>Warning! There are some spoilers in here, but I'll try not to put in any spoilers on the current season. The only thing you will see is in which tribe each person starts in! Take a look around the website, and enjoy! </h2>
+        <h3> Note: This is not sponsored by Survivor in any way.</h3>
+<a href="#vatu">
+ <button class= "btn-vatu">Vatu</button>
+ </a>
+ <a href="#cila">
+ <button class = "btn-cila">Cila</button>
+ </a>
+ <a href="#kalo">
+ <button class = "btn-kalo">Kalo</button>
+ </a>
+
+
+
+<div id="vatu">
+  <h2>Welcome to the tribe of Vatu!</h2>
+</div>
+<div id="cila">
+  <h2>Welcome to the tribe of Cila!</h2>
+</div>
+<div id="kalo">
+  <h2>Welcome to the tribe of Kalo!</h2>
+</div>
+
+
+
+</center>
 
     </body>
 </html>
